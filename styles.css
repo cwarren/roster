@@ -1,0 +1,129 @@
+.roster_content {
+  text-align: center;
+}
+
+/*------------------------------*/
+
+.roster_content #roster_list_names {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+/*------------------------------*/
+
+/* NOTE: initial display is hidden; jquery code turns on display, which means the button is/remains hidden if there's no jquery available*/
+#self_quiz_button_block {
+  display: none;
+}
+
+#self_quiz_button {
+  padding: 8px;
+}
+
+
+#roster_list_pictures {
+  margin: 5px auto;
+  list-style: none;
+}
+
+#roster_list_pictures li {
+  display: inline;
+  list-style-type: none;
+}
+
+#roster_list_pictures .userinfo_section {
+  float: left; 
+/*  display: inline; */
+/*  width: 200px; */
+  padding-top: 14px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 14px;
+  text-align: center;
+}
+
+#roster_list_pictures .userinfo_section .infoblock_pic {
+  margin: 2px auto;
+  min-height: 135px;
+  min-width: 175px;
+}
+
+#roster_list_pictures .userinfo_section .infoblock_pic .userinfo_fullname {
+/*  margin-top: -6px;*/
+  padding: 0px;
+  font-size: 14px;
+}
+#roster_list_pictures .userinfo_section .infoblock_pic .userinfo_courserole {
+/*  margin-top: -6px; */
+  padding: 0px;
+  font-size: 10px;
+  font-style: italic;
+}
+
+/*------------------------------*/
+
+#roster_list_details {
+  margin: 10px auto;
+  list-style: none;
+}
+
+#roster_list_details li {
+  display: inline;
+  list-style-type: none;
+}
+
+#roster_list_details .userinfo_section {
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 12px;
+  width: 350px;
+  height: 140px;
+  padding-top: 10px;
+  border: 1px solid #bbb;
+}
+
+#roster_list_details .userinfo_section .infoblock_pic {
+  text-align: center;
+  width: 140px; 
+  float: left;
+  margin-right: 3px;
+}
+#roster_list_details .userinfo_section .infoblock_pic .userinfo_fullname {
+/*  margin-top: -6px;*/
+  padding: 0px;
+  font-size: 10px;
+}
+#roster_list_details .userinfo_section .infoblock_pic .userinfo_courserole {
+  padding: 0px;
+  font-size: 10px;
+  font-style: italic;
+}
+
+#roster_list_details .userinfo_section .infoblock_nonpic {
+  text-align: left;
+  float: left;
+/*  width: 180px;*/
+}
+
+#roster_list_details .userinfo_section .infoblock_nonpic div {
+  padding: 2px;
+}
+
+/*------------------------------*/
+
+.roster_other_links {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.selected_mode_text {
+    font-weight: bold;
+}
+
+
+.roster_table {
+  width: 100%; 
+  margin: 10px auto;
+}
