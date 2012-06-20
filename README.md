@@ -3,7 +3,6 @@
 A moodle 2.3 block plugin that provides simple course rosters. It supports three display options:
 
 1. text-based table/list
-
     - role
     - name (first, last)
     - username
@@ -13,14 +12,12 @@ A moodle 2.3 block plugin that provides simple course rosters. It supports three
     - **jQuery plugin tablesorter allows in-place sorting of the user list**
 
 1. pictures
-
     - picture
     - name
     - role
     - **jQuery code allows a learning mode which hides the name and role until the mouse hovers over the image**
 
 1. details
-
     - picture
     - name
     - role
